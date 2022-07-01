@@ -1,0 +1,48 @@
+body{
+     background-image: url(https://media.gettyimages.com/photos/denver-and-the-flatirons-picture-id1179434234?s=2048x2048);
+     background-color:rgba(0,0,0,0.4);
+     display:flex;
+     justify-content: center;
+     align-items:center;
+     height: 100vh; 
+     margin: 0;
+     
+}
+.card{
+    background-color:rgb(0,0,0,0.8);
+    color:white;
+    border-radius:0.5em;
+    padding:30px;
+    width:100%;
+    max-width: 420px;
+    margin: 20px;
+    font-family: 'Spline Sans', sans-serif;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin:0.5em;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background-color:rgba(255,255,255,0.7);
+    border-radius: 0.5em;
+
+}
+input{
+    padding: 10px;
+    border-radius: 18px;
+    font-family: 'Spline Sans', sans-serif;
+    transition: 0.2s ease-in-out;
+    
+    
+}
+input:hover{
+    border-radius: 0;
+}
+.description{
+    text-transform: capitalizes;
+}
